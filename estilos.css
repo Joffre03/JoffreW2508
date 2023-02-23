@@ -11,7 +11,7 @@ form{
     margin: 0 auto; /* es el margen que quetremos tener visible en la pagina. auto es para que genere el margen automaticamente depende de lo que requiera el formulario*/
     width: 400px;        /*es para mover el texto en los pixeles de la pantalla y asi mover a la izquierda, derecha o centrar*/
     padding: 1em; /*separacion entre el contenido y el margen .em equivale a 16px*/
-    border: 5px blue; /*Nos permite crear el borde para el formulario, agregandole tamaño y color cambiando la palabra solid por el color que queramos*/
+    border: 10px solid #CCC; /*Nos permite crear el borde para el formulario, agregandole tamaño y color cambiando la palabra solid por el color que queramos*/
     border-radius: 16px; /*recorta las orillas del borde y las hace circulares en este caso*/
 }
 
@@ -34,14 +34,14 @@ label{
 }
 
 input:focus{
-    border-color: blue; /*resalta el input una vez que hagamos click con el color que le pusimos*/
+    border-color: rgb(0, 255, 4); /*resalta el input una vez que hagamos click con el color que le pusimos*/
 }
 
-textarea{
+textarea:focus{
     vertical-align: top; /*mandar la alineacion de nuestro label que acompaña al text area arriba con top*/
     height: 90px; /*Tamaño de nuestra text area*/
 }
 
 button{
-    margin-left: 100px; /*cuantos pixeles queremos mover nuestro boton en este caso a la izquierda para centrarlo o solo desplazarlo*/
+    margin-left: 120px; /*cuantos pixeles queremos mover nuestro boton en este caso a la izquierda para centrarlo o solo desplazarlo*/
 }
