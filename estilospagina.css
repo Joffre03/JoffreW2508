@@ -1,0 +1,39 @@
+h2{
+    color:blue
+}
+
+
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 15 px solid #cccccc;
+    border-radius: 16px;
+}
+
+ul{
+    padding: 1em;
+    margin: 0 auto;
+    list-style: none;
+}
+
+form li+li{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    color: black;
+    text-align: center;
+}
+
+input:focus{
+    border-color: blue;
+    border-radius: 16px;
+}
+
+button{
+    margin-left: 120px;
+}
