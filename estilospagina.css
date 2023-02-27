@@ -8,7 +8,7 @@ form{
     margin: 0 auto;
     width: 400px;
     padding: 1em;
-    border: 15 px solid #cccccc;
+    border: 5px solid #CCC;
     border-radius: 16px;
 }
 
@@ -24,7 +24,7 @@ form li+li{
 
 label{
     display: inline-block;
-    width: 90px;
+    width: 120px;
     color: black;
     text-align: center;
 }
@@ -35,5 +35,5 @@ input:focus{
 }
 
 button{
-    margin-left: 120px;
+    margin-left: 145px;
 }
