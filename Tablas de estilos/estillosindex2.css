@@ -1,0 +1,48 @@
+body{
+    background-color: #fdcae1;
+}
+
+/* se puede hacer de cualquiera de las dos maneras, normal o generadsno unac clase como se muestra a continuación 
+.fondorosa{
+    background-color: #fdcae1;
+}*/
+
+p{
+    background-color: cornflowerblue;
+}
+
+.parraforojo{ /*crear clase de estilo para algo en común en este caso el parrafo*/
+    background-color: beige;
+}
+
+.parrafoazul{
+    background-color: azure;
+}
+
+.parrafopastel{
+    background-color: coral;
+}
+
+.parrafoSec1{
+    margin-bottom: 0px;
+}
+
+.parrafoSec2{
+
+}
+.sectionPrimaria{ /*Creando clases para sectiones*/
+    text-align: justify; /*el justify se usa para que el texto no este sobresalido*/
+    font-size: 10px;
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-bottom: 0px;
+   /*border: 1px solid black;*/
+}
+
+.sectionSecundaria{
+    text-align: left;
+    font-size: 10px;
+    color: rgb(154, 95, 160);
+    border: 2px solid black;
+    margin-top: 0px;
+}
