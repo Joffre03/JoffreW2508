@@ -11,7 +11,7 @@ p{
     background-color: cornflowerblue;
 }
 
-.parraforojo{ /*crear clase de estilo para algo en común en este caso el parrafo*/
+.parraforojo{ /*crear clase de estilo para algo en común en este caso el color de fondo del parrafo*/
     background-color: beige;
 }
 
@@ -23,19 +23,19 @@ p{
     background-color: coral;
 }
 
-.parrafoSec1{
-    margin-bottom: 0px;
+.parrafoSec1{ /*Se crea clase en una seccion para respetar un estilo en es seccion una vez que sea llamada en el index*/
+    
 }
 
 .parrafoSec2{
-
+    margin-bottom: 0px; /*Se elimina el margen de la parte de abajo del parrafo para que pueda ser unido con el otro ya que el padding es la separacion enetre un parrafo y otro y en este caso tenemos que eliminar el margen*/
 }
 .sectionPrimaria{ /*Creando clases para sectiones*/
     text-align: justify; /*el justify se usa para que el texto no este sobresalido*/
     font-size: 10px;
-    background-color: burlywood;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    background-color: burlywood; /* color de fondo de la seccion completa*/
+    margin-top: 10px; /*tamaño del margen arriba o la separaciòn entre el margen y el padding y el borde*/
+    margin-bottom: 0px; /*Tamaño del margen en la parte de abajo o la separaciòn entre el padding y el borde con el margen*/
    /*border: 1px solid black;*/
 }
 
