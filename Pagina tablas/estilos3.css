@@ -1,3 +1,53 @@
-ul{
-    text-align: start;
+@font-face {
+    font-family: FuenteJoffre;
+    src: url(Fuentes/YoungMoney.otf); /* Descaragndo fuentes*/
 }
+
+@font-face {
+    font-family: Send_Box;
+    src: url(Fuentes/send\Box.otf);
+}
+
+body{
+    background-color: #eb636b; /*Color de fondo de todo el cuerpo de la pagina*/
+    padding: 4em;
+    font-family: serif; /*Tipo de letra*/
+}
+
+
+.fondoblaco{ /*se crea una clase para que donde se utilice esta se establezca un background de color morado*/
+    background-color: rgba(17, 70, 161, 0.557);
+}
+
+.bordeblanco{ /*se crea una clase para que en donde sea utilizada se cree un borde rojo de el tamaño establecido*/
+    border: 20px solid red;
+}
+
+.imagenEstilo{
+    width: 20px;
+    text-align: center;
+}
+
+.textoFooter{ /*se crea una clase con diversos estilos dentro para qcuando sea utilizada lo que se escriba dentro de ella tenga modificado todo lo establecido*/
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 1em;/*tamaño de la separacion entre la parte de arriba del contenido y el margen u otro parrafo si no hay margen no hay separacion entre el contenido*/
+    padding-bottom: 1em; /*tamaño de la separacion entre la parte de abajo del contenido y el margen u otro parrafo si no hay margen no hay separacion entre el contenido*/
+    border-radius: 5px 5px 0px 0px; /*las orillas que queremos circulares y las que no*/
+   /*El hola se encuentra separado ya que hay un padding top y bottom por default*/
+
+}
+
+.parrafoFooter{ /*se crea clase con diversos estilos para que una vez sea ocupada modifque el parrafo tal cual lo establecimos*/
+    margin: 0px;
+    font-size: 20px; /*tamaño de la letra*/
+    font-family: 'FuenteJoffre';  /*tipo de letra*/
+    /*el fes aragon esta pegado al texto footer o al marco debido a que este no tiene margen por lo tanto si no hay margen no existe un padding ya que el padding es la separacion entre el contenido y el margen al no haber un margen no hay una separación entre el contenido ya que no tiene con quien separarse*/
+}
+
+
+   
+   
+
+

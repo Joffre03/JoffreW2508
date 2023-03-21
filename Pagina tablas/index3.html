@@ -4,33 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos3.css">
+    <link rel="shortcut icon" href="Recursos/media/ICOLOGO.png"> <!--icono para la pestaña de la pagina-->
     <title>Documento</title>
 </head>
 <body>
-    <div><!--Engolba distitos elemntos y le podemos dar atributos de manera general a todo-->
+    <div class="bordeblanco fondoblaco"><!--Engolba distitos elemntos y le podemos dar atributos de manera general a todo, se manda a llamar la clase fondo blanco y borde blanco-->
     <table><!--Crear tabla-->
- <tr> <!--Crear una fila en la tabla-->
-<th><img src="" alt=""></th>
-<th>Mi pagina HTML</th> <!--Creacion de encabezados-->
+        <tr> <!--Crear una fila en la tabla-->
+<th><img src="Recursos/media/45años.png" alt="45 años de la unam" style="width: 90px;"></th> <!--poniendo una imagen de encabezado-->
+
+<th class="margenes">Mi pagina HTML</th> <!--Creacion de encabezados-->
  </tr>
  <tr> <!--Crea fila en la tabla-->
     <td><!--Escribir dentro de la fila, meterle contenido en estecaso escribir una lista desordenada en la fila-->
         <ul><!--Lista desordenada-->
             <li style="list-style-image: url(Recursos/Media/github1.png);"> <a href="https://github.com/Joffre03/JoffreWeb2508" style="color: black; text-decoration: none;" >Git hub <style></style></a></li> <!--Listado pero esta vez con imagen y con referencia para que se vuelva link pero solo el texto que acompaña a la imagen-->
-           <a href="https://es-la.facebook.com/" style="color: black; text-decoration: none;"> <li style="list-style-image: url(Recursos/Media/Facebook1.png);">Facebook</li>
+           <a href="https://es-la.facebook.com/" style="color: black; text-decoration: none;"> <li style="list-style-image: url(Recursos/Media/Facebook1.png);">Facebook</li> <!--el li style cambia el estilo del listado en lugar de un punto por una imagen-->
            <a href="https://www.aragon.unam.mx/fes-aragon/#!/oferta-academica/licenciaturas/computacion" style="color: black; text-decoration: none;"> <li style="list-style-image: url(Recursos/Media/fesaragon1.jpg);">Donde estudio</li>
             <a href="https://www.binance.com/es-MX" style="color: black; text-decoration: none;"> <li style="list-style-image: url(Recursos/Media/crypto1.jpg);">Criptomonedas</li></a> <!--Poner primero la referencia para que no solo el texto sea link si no tambien la imagen todo el campo completo-->
         </ul>
     </td>
 
-    <td>
-        <h1><center>Bienvenidos</center></h1>
+    <td> <!--Crear columna en la fila y escribir en ella-->
+        <h1><center>Bienvenidos</center></h1><!--Titulo centrado-->
         <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, quaerat nisi ipsum maxime at, velit est, quis unde aperiam magni molestias doloremque similique. Earum commodi veniam delectus dolore? Minus, voluptate?</p>
     </td>
  </tr>
+ <tr> <!--Creando una nueva fila-->
+    <td><!--creando contenido dentro de la columna de la fila-->
+    <ul>
+        <h1>Hola</h1>
+        <li type="none"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis quisquam maiores ducimus accusantium rem praesentium beatae perferendis incidunt sunt, quis dolores doloribus perspiciatis architecto cupiditate mollitia expedita soluta laborum?</p></li> <!--Quitando el punto de listado y que se liste sin nada-->
+    </ul>
+    </td>
+ </tr> <!--Fin de la segunda fila-->
  </table>
  
-<div>Fes Aragón</div>
+<div class="textoFooter">HOLA</div> <!--se manda a llmar a la clase textoFooter creada en estilos-->
+<p class="parrafoFooter">FES ARAGON</p> <!--se manda a llamar a la clase de parrafo creada en estilos para que se edite como de asigno-->
 
 </div>
 
