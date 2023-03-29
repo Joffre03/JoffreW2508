@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Send_Box;
-    src: url(Fuentes/send\Box.otf);
+    src: url(Fuentes/Send\ Box.otf);
 }
 
 body{
@@ -36,6 +36,7 @@ body{
     padding-bottom: 1em; /*tamaño de la separacion entre la parte de abajo del contenido y el margen u otro parrafo si no hay margen no hay separacion entre el contenido*/
     border-radius: 5px 5px 0px 0px; /*las orillas que queremos circulares y las que no*/
    /*El hola se encuentra separado ya que hay un padding top y bottom por default*/
+   font-family: 'FuenteJoffre';
 
 }
 
@@ -46,8 +47,20 @@ body{
     /*el fes aragon esta pegado al texto footer o al marco debido a que este no tiene margen por lo tanto si no hay margen no existe un padding ya que el padding es la separacion entre el contenido y el margen al no haber un margen no hay una separación entre el contenido ya que no tiene con quien separarse*/
 }
 
+.titulo{
+    font-family:'Send_Box'; /*Poner tipo de fuente*/
+    font-size: 35px; /*Tamaño del texto*/
+}
 
-   
-   
+.subtitulo{
+    text-align: center;
+    font-family: 'FuenteJoffre';
+    margin-top: 10px;
+    
+}
 
-
+.imagenfondo{
+    background-image: url(); /*Fondo pero con una imagen*/
+    font-size: ;
+    background-repeat: no-repeat;/*que no se repita la imagen*/
+}
