@@ -1,0 +1,4 @@
+DBname: epiz_33685877_DBweb1
+DBUser:epiz_33685877
+DBpass:contraseña de infinity free
+DBhost:	sql207.epizy.com
